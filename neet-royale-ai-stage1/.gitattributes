@@ -1,0 +1,25 @@
+# Normalize line endings: all text files are stored as LF in the repo,
+# and git converts to the OS native ending on checkout.
+* text=auto eol=lf
+
+# Force LF for Python source — ensures consistency across Windows/Mac/Linux devs
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+.env.example text eol=lf
+.gitignore text eol=lf
+requirements.txt text eol=lf
+
+# Binaries — never touch line endings
+*.pdf binary
+*.db binary
+*.index binary
+*.png binary
+*.jpg binary
+*.jpeg binary

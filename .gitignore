@@ -1,0 +1,8 @@
+﻿node_modules/
+venv/
+dist/
+build/
+.env
+.DS_Store
+__pycache__/
+.vite/
